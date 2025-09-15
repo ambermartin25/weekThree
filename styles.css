@@ -15,25 +15,10 @@ header {
 }
 
 /* Navigation Menu */
-header ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 0.5rem 1rem;
-}
-
-header ul li a:hover {
-    background-color: #36648b;
-    color: #f0f8ff;
-}
+header ul { list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: center; gap: 1rem; } 
+header ul li a { text-decoration: none; color: white; padding: 0.5rem 1rem; transition: background-color 0.3s ease, color 0.3s ease; /* Added transition for hover effect */ } 
+header ul li a:hover { background-color: #36648b; color: #f0f8ff; } section { transition: transform 0.3s ease; /* Added transition for section hover effect */ } 
+section:hover { transform: scale(1.02); } 
 
 /* Main Sections */
 main {
