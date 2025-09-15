@@ -1,0 +1,71 @@
+/* Background and Font */
+body {
+    background: linear-gradient(to bottom, #f0f8ff, #e6e6fa);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: #4682b4;
+    color: white;
+}
+
+/* Navigation Menu */
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+header ul li a:hover {
+    background-color: #36648b;
+    color: #f0f8ff;
+}
+
+/* Main Sections */
+main {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+main section {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #f0fff0;
+    border: 1px solid #d3d3d3;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+main section h2 {
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #f0f8ff;
+    color: #00008b;
+}
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; } 
+#projects { padding: 20px; background-color: #f9f9f9; } 
+#projects table { width: 100%; border-collapse: collapse; margin: 20px 0; } 
+#projects table caption { font-size: 1.5em; font-weight: bold; margin-bottom: 10px; } 
+#projects table thead th { background-color: #4CAF50; color: white; text-align: left; padding: 10px; } 
+#projects table tbody td { border: 1px solid #ddd; padding: 8px; text-align: left; } 
+#projects table tfoot td { border: 1px solid #ddd; padding: 8px; text-align: left; font-style: italic; }
+ #projects table colgroup col:nth-child(1), #projects table colgroup col:nth-child(3) { background-color: #f2f2f2; } #projects table a { text-decoration: none; color: #333; transition: background-color 0.3s ease, transform 0.3s ease; } #projects table a:hover { background-color: #4CAF50; color: white; transform: scale(1.02); } section { transition: transform 0.3s ease; } section:hover { transform: scale(1.02); } 
